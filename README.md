@@ -2,7 +2,11 @@
 An interactive graphical representation of kalman computations
 
 ## Kalman Filter Explanation:
-The Kalman Filter implemented in this project is a simple one-dimensional filter
+
+The Kalman Filter is a recursive algorithm used to estimate the state 
+of a dynamic linear system from a series of noisy measurements.
+
+The Filter implemented in this project is a simple one-dimensional filter
 and can be broken down into the following equations:
 
 1. **Prediction Step**:
