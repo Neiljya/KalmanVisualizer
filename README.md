@@ -8,7 +8,7 @@ and can be broken down into the following equations:
 1. **Prediction Step**:
    - **Predicted State Estimate**:
 
-      ![predicted state estimate](https://www.sciweavers.org/upload/Tex2Img_1713300771/render.png)
+      ![predicted state estimate](https://www.sciweavers.org/upload/Tex2Img_1713301059/render.png)
      
    - **Predicted Estimate Covariance**:
      
