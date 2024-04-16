@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#canvas {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+label, input, select {
+    margin-top: 10px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
