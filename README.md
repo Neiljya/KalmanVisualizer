@@ -12,24 +12,29 @@ and can be broken down into the following equations:
 1. **Prediction Step**:
    - **Predicted State Estimate**:
 
-      ![predicted state estimate](https://www.sciweavers.org/upload/Tex2Img_1713301158/eqn.png)
+      ![equation](https://github.com/Neiljya/KalmanVisualizer/assets/140043024/cd645236-e7ba-4f07-8593-abca04611127)
+
      
    - **Predicted Estimate Covariance**:
 
-      ![predicted estimate covariance](https://www.sciweavers.org/upload/Tex2Img_1713301218/eqn.png)
+     ![equation (1)](https://github.com/Neiljya/KalmanVisualizer/assets/140043024/fe329e58-d05f-4df7-99dd-022ac2ab2b05)
+
      
    Where **Q** is the process variance
 2. **Update Step (Compute Kalman Gain)**:
    - **Kalman Gain**:
-
-      ![kalman gain](https://www.sciweavers.org/upload/Tex2Img_1713301268/eqn.png)
+     
+      ![equation (2)](https://github.com/Neiljya/KalmanVisualizer/assets/140043024/e1a97562-5e0a-4c3e-997f-7e85d0db05e2)
+     
      
    - **Updated State Estimate**:
+     
+      ![equation (3)](https://github.com/Neiljya/KalmanVisualizer/assets/140043024/f71c6329-61e6-464d-8fc9-62bd1e679b46)
 
-      ![updated state estimate](https://www.sciweavers.org/upload/Tex2Img_1713301343/eqn.png)
      
    - **Updated Covariance Estimate**:
 
-      ![updated covariance estimate](https://www.sciweavers.org/upload/Tex2Img_1713301409/eqn.png)
+      ![equation (4)](https://github.com/Neiljya/KalmanVisualizer/assets/140043024/8ee677e9-dda4-468c-9afe-579646ca0e3d)
+
      
    Where **R** is the measurement variance 
